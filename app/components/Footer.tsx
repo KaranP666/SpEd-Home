@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <button
               type="submit"
-              className="bg-yellow-400 hover:bg-yellow-500 text-white font-semibold px-6 py-3 rounded-md uppercase flex items-center gap-2"
+              className="bg-yellow-400 hover:bg-yellow-500 text-white font-semibold px-6 py-3 rounded-md uppercase flex items-center gap-2 float-right"
             >
               Submit <span className="text-sm">➤</span>
             </button>

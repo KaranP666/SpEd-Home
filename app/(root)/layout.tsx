@@ -27,12 +27,6 @@ const RootLayout = async ({ children }: { children: ReactNode }) => {
           Book Now
         </button>
       </div>
-      {/* <nav className="flex justify-between items-center w-full px-6 py-4">
-        <Link href="/" className="flex items-center gap-2">
-          <Image src="/logo.svg" alt="logo" width={38} height={32} />
-          <h2 className="text-primary-100">SpEd@home</h2>
-        </Link>
-      </nav> */}
     <Navbar />
 
       {children}

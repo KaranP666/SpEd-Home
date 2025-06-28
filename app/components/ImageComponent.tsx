@@ -24,8 +24,8 @@ const ImageComponent = () => {
               <Image
                 src={client.src}
                 alt={client.name}
-                width={120}
-                height={80}
+                width={150}
+                height={90}
                 className="object-contain"
               />
             </div>
